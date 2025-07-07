@@ -7,7 +7,7 @@
 
 ## 🧭 Introduction
 
-Hello! We’re a team of three students – **Rajni**, **Saddam**, and **Simranjeet** – working on this academic project titled **Smart Job Tracker**, an **AI-powered WordPress web application** built to help individuals manage and optimize their job search process effectively.
+Hello! We’re a team of three students – **Saddam**, **Rajni**, and **Simranjeet** – working on this academic project titled **Smart Job Tracker**, an **AI-powered WordPress web application** built to help individuals manage and optimize their job search process effectively.
 
 This application is designed for anyone tired of juggling multiple spreadsheets or lost bookmarks — now everything is in one centralized, intelligent platform.
 
@@ -92,8 +92,8 @@ To create a **centralized WordPress-based solution** that helps users:
 
 | Name         | Role                                |
 |--------------|--------------------------------------|
-| **Rajni**     | Project Lead, Presentation, Documentation |
-| **Saddam**    | Full-Stack Developer, AI/API Integration |
+| **Saddam**     | Project Lead, Presentation, Documentation |
+| **Rajni**    | Full-Stack Developer, AI/API Integration |
 | **Simranjeet**| UI/UX Design, WordPress Customization   |
 
 ---
