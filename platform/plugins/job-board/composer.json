@@ -1,0 +1,9 @@
+{
+    "name": "botble/job-board",
+    "description": "Job Board",
+    "type": "package",
+    "require": {
+        "geoip2/geoip2": "^3.1",
+        "khaled.alshamaa/ar-php": "^7.0"
+    }
+}

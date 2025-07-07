@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'name' => 'Import Jobs',
+    'choose_file' => 'Choose file',
+    'choose_file_description' => 'Choose file with mimes: :types.',
+    'import_success_message' => 'Imported successfully.',
+    'import_failed_message' => 'Import failed, please check the errors below!',
+    'row' => 'Row',
+    'attribute' => 'Attribute',
+    'errors' => 'Errors',
+    'failures' => 'Failures',
+    'results' => 'Result: :success success(es), :failed failure(s)',
+    'rules' => 'Rules',
+    'column' => 'Column',
+    'template' => 'Sample template',
+    'download_csv_file' => 'Download CSV file',
+    'download_excel_file' => 'Download Excel file',
+    'downloading' => 'Downloading',
+    'uploading' => 'Uploading...',
+    'validating' => 'Validating...',
+    'importing' => 'Importing...',
+    'importing_message' => 'Importing form :from to :to',
+    'validating_message' => 'Validating form :from to :to',
+    'total_rows' => 'You have imported :total rows successfully!',
+    'update_existing_jobs' => 'Update existing jobs',
+    'update_existing_jobs_description' => 'If checked, existing jobs with the same ID or unique ID will be updated instead of creating new ones.',
+    'unique_id_exists' => 'Job with unique ID :id already exists. Please enable "Update existing jobs" option to update it.',
+    'id_exists' => 'Job with ID :id already exists. Please enable "Update existing jobs" option to update it.',
+    'company' => [
+        'name' => 'Import Companies',
+    ],
+];

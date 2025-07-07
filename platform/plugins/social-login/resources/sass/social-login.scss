@@ -1,0 +1,187 @@
+.login-options {
+    text-align: center;
+
+    &-title {
+        position: relative;
+        z-index: 1;
+        border-top: 1px solid #E0E2E3;
+        padding-top: 40px;
+        padding-bottom: 15px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+
+        p {
+            font-size: 15px;
+            color: #55585B;
+            margin-bottom: 0;
+            padding: 0 20px;
+            position: relative;
+            display: inline-block;
+        }
+    }
+
+    .social-login-basic {
+        padding: 0 50px;
+        list-style: none;
+
+        li {
+            list-style: none;
+        }
+
+        .social-login {
+            font-size: 16px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 15px 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: 0.3s;
+
+            img {
+                min-width: 28px;
+                max-width: 28px;
+                margin-right: 15px;
+            }
+
+            &.facebook-login {
+                background-color: #1877F2;
+                color: #fff;
+            }
+
+            &.google-login {
+                background-color: #fff;
+                color: #55585B;
+                border: 1px solid #F2F3F4;
+            }
+
+            &.apple-login {
+                background-color: #000000;
+                color: #fff;
+                margin-bottom: 0;
+            }
+
+            &.github-login {
+                background-color: #fff;
+                color: #55585B;
+                border: 1px solid #F2F3F4;
+            }
+
+            &.linkedin-login, &.linkedin-openid-login {
+                background-color: #fff;
+                color: #55585B;
+                border: 1px solid #F2F3F4;
+            }
+
+            &:hover {
+                transform: translateY(-3px);
+                transition: 0.3s;
+                box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+            }
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+
+        &.social-login-lg {
+            flex-direction: column;
+
+            li {
+                width: 100%;
+
+                > a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    gap: 0.5rem;
+                    border-radius: var(--bs-border-radius, 8px);
+                    padding: 0.55rem 1rem;
+                    text-decoration: none;
+
+                    span {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        li {
+            list-style: none;
+
+            > a {
+                border-radius: 2px;
+                padding: 0.25rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+
+                span {
+                    display: none;
+                }
+
+                svg {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+            }
+
+            .google {
+                background-color: #DB4437;
+                color: #fff;
+
+                &:hover {
+                    background-color: #C13505;
+                }
+            }
+
+            .linkedin,
+            .linkedin-openid {
+                background-color: #0A66C2;
+                color: #fff;
+
+                &:hover {
+                    background-color: #0A5CBA;
+                }
+            }
+
+            .facebook {
+                background-color: #4267B2;
+                color: #fff;
+
+                &:hover {
+                    background-color: #3A5795;
+                }
+            }
+
+            .github {
+                background-color: #333;
+                color: #fff;
+
+                &:hover {
+                    background-color: #222;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .login-options {
+        .social-login-basic {
+            padding: 0;
+
+            .social-login {
+                font-size: 14px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,731 @@
+.main {
+    overflow: hidden;
+}
+
+input[type=text], input[type=email], input[type=date], input[type=time], input[type=tel] {
+    padding-right: 20px;
+}
+
+.header-nav {
+    .burger-icon {
+        left: 15px;
+        right: auto;
+    }
+}
+.block-signin {
+    .ml-40 {
+        margin-left: 0 !important;
+        margin-right: 40px;
+    }
+}
+
+.header {
+    .main-menu {
+        li {
+            ul {
+                li {
+                    a {
+                        float: right;
+                        margin-right: 15px;
+
+                        &:after {
+                            right: 5px;
+                        }
+                    }
+                }
+            }
+
+            &.has-children {
+                a {
+                    &:after {
+                        left: -25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav-tabs {
+    li {
+        a {
+            img {
+                margin: 0 0 0 6px !important;
+            }
+        }
+    }
+}
+
+.banner-hero {
+    .banner-inner {
+        .banner-imgs {
+            .block-1 {
+                right: -150px;
+            }
+            .block-2 {
+                left: 120px;
+            }
+            .block-3 {
+                left: 220px;
+            }
+            .block-4 {
+                right: -80px;
+            }
+        }
+    }
+
+    .block-banner {
+        .form-find {
+            .input-keysearch {
+                background-position: right;
+            }
+
+            .select2 {
+                &::before {
+                    right: 0;
+                }
+
+                &::after {
+                    right: auto;
+                    left: 6px;
+                }
+
+                .select2-selection__arrow {
+                    background-position: right 0 center;
+                }
+            }
+
+            .box-industry {
+                .select2::before {
+                    right: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+.card-grid-2 {
+    .flash {
+        left: 15px !important;
+        right: auto !important;
+    }
+
+    .image-box {
+        padding-left: 15px;
+        padding-right: 0 !important;
+    }
+}
+
+.box-swiper {
+    .swiper-container {
+        .item-logo {
+            .image-left {
+                padding-right: 0 !important;
+            }
+
+            .text-info-right {
+                text-align: right;
+                margin-right: 15px;
+
+                h4 {
+                    width: 9em;
+                }
+
+                .ml-10 {
+                    margin-left: 0 !important;
+                }
+            }
+        }
+    }
+}
+
+.box-radius-8 {
+    .image {
+        padding-right: 0;
+        padding-left: 25px;
+    }
+}
+
+.card-grid-2 {
+    .card-grid-2-image-rd {
+        padding-right: 0;
+        padding-left: 15px;
+    }
+}
+
+.box-swiper {
+    .swiper-button-prev {
+        left: -65px;
+        right: auto;
+    }
+
+    .swiper-button-next {
+        right: -64px;
+    }
+
+    .swiper-button-next-1 {
+        left: 55px;
+        right: auto;
+    }
+
+    .swiper-button-prev-1 {
+        left: 5px;
+        right: auto;
+    }
+}
+
+.box-swiper.style-nav-top {
+    .swiper-button-prev {
+        left: -5px;
+        right: auto;
+    }
+
+    .swiper-button-next {
+        left: 45px;
+        right: auto;
+    }
+}
+
+.box-swiper.layout-brand-1 {
+    .swiper-button-prev-1 {
+        left: 5px;
+        right: auto;
+    }
+
+    .swiper-button-next-1 {
+        left: 55px;
+        right: auto;
+    }
+}
+
+.top-companies {
+    .location-label {
+        float: right;
+    }
+}
+
+.jobs-listing {
+    .job-grid {
+        .name-job {
+            width: 85px;
+            overflow: inherit;
+        }
+    }
+}
+
+.card-grid-3 {
+    .card-block-info {
+        .card-2-bottom {
+            .img-rounded {
+                margin-right: 0;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.box-step.step-2 {
+    &::before {
+        right: 68%;
+    }
+}
+
+.box-step.step-1 {
+    &::before {
+        right: 68%;
+    }
+}
+
+.box-cover-img {
+    .content-bottom {
+        right: 20px;
+    }
+}
+
+.sidebar-border .sidebar-heading .avatar-sidebar figure, .sidebar-shadow .sidebar-heading .avatar-sidebar figure {
+    float: right;
+    margin-left: 20px;
+}
+
+.sidebar-border .sidebar-heading .avatar-sidebar .sidebar-info, .sidebar-shadow .sidebar-heading .avatar-sidebar .sidebar-info {
+    padding-right: 100px;
+    padding-left: 0;
+}
+
+.content-single {
+    ul {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+}
+
+.single-apply-jobs {
+    .mr-15 {
+        margin-right: 0 !important;
+    }
+}
+
+.card-list-4 {
+    .image {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+}
+
+.sidebar-list-job {
+    .ul-disc {
+        padding-left: 0 !important;
+        padding-right: 25px;
+    }
+}
+
+.box-border {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.box-company-profile {
+    h5 {
+        .card-location {
+            margin-left: 0 !important;
+            margin-right: 20px;
+        }
+    }
+}
+
+.sidebar-border .sidebar-heading .avatar-sidebar .sidebar-info, .sidebar-shadow .sidebar-heading .avatar-sidebar .sidebar-info {
+    padding-right: 0;
+}
+
+.card-grid-6 {
+    .card-image {
+        .image {
+            margin-left: 10px;
+        }
+    }
+    .card-profile {
+        margin-top: 10px;
+    }
+}
+.box-view-type {
+    float: left !important;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.filter-block {
+    .link-reset {
+        float: left !important
+    }
+
+    .mb-3 {
+        .select2-selection {
+            margin-right: 15px;
+        }
+
+        i {
+            right: 15px;
+        }
+    }
+}
+
+.box-newsletter {
+    .box-form-newsletter {
+        .form-newsletter {
+            .input-newsletter {
+                background-position: right 17px center !important;
+                padding-right: 60px !important;
+            }
+        }
+    }
+}
+
+.breadcrumbs {
+    li {
+        margin-right: 10px !important;
+
+        &:first-child {
+            margin-right: 0 !important;
+        }
+    }
+}
+
+.search-form {
+    form {
+        input {
+            padding-right: 20px;
+            padding-left: 0;
+        }
+        button {
+            left: 0;
+            right: auto;
+        }
+    }
+}
+
+.post-list-small {
+    .post-list-small-item {
+        margin-bottom: 15px;
+        .thumb {
+            margin-right: 0 !important;
+            margin-left: 15px;
+        }
+        .author {
+            margin-right: 0 !important;
+            margin-left: 20px;
+
+            img {
+                margin-right: 0;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+.max-width-single {
+    .post-meta {
+        .author {
+            margin-right: 0 !important;
+            margin-left: 30px;
+
+            img {
+                margin-right: 0;
+                margin-left: 5px;
+            }
+        }
+
+        .date {
+            .mr-20 {
+                margin-right: 0 !important;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+.jobs-listing {
+    .card-grid-2 {
+        .flash {
+            top: 31px;
+        }
+
+        .pl-15 {
+            padding-left: 50px !important;
+        }
+    }
+}
+
+footer {
+    .float-right {
+        float: left;
+    }
+}
+
+.banner-hero {
+    padding: 0 15px 0 65px;
+}
+
+#alert-container {
+    .alert {
+        padding: 15px 50px 15px 35px !important;
+
+        &.alert-dismissible {
+            .close {
+                left: 15px;
+                right: auto;
+            }
+        }
+
+        .message-icon {
+            right: 5%;
+            left: auto;
+        }
+    }
+}
+
+.header-right {
+    position: relative;
+    .header-menu {
+        position: relative;
+        .icon-down {
+            background: unset;
+            &:before {
+                content: "";
+                width: 24px;
+                height: 24px;
+                position: absolute;
+                left: -25px;
+                background: url(../imgs/template/icons/triangle.svg) no-repeat right center;
+            }
+        }
+    }
+
+}
+
+.tab-content {
+    .box-info-profile {
+        .btn-apply {
+            margin-right: 20px;
+        }
+    }
+}
+
+#avatar-modal {
+    .avatar-form {
+        .btn-close {
+            right: auto;
+            left: 15px;
+        }
+    }
+}
+
+#scrollUp {
+    right: auto;
+    left: 35px;
+}
+
+#alert-container {
+    right: auto;
+    left: 5px;
+}
+
+.card-grid-2 {
+    .card-grid-2-image-left {
+        .right-info {
+            .location-small {
+                background: unset;
+                margin-right: 15px;
+                &:before {
+                    content: "";
+                    width: 24px;
+                    height: 24px;
+                    position: absolute;
+                    background: url(../imgs/template/icons/location.svg) no-repeat 0px 5px;
+                    right: 75px;
+                }
+            }
+        }
+    }
+}
+
+.item-logo {
+    .text-info-bottom {
+        .icon-location {
+            position: relative;
+            padding-right: 18px;
+            background: unset;
+            &:before {
+                content: "";
+                width: 24px;
+                height: 24px;
+                position: absolute;
+                background: url(../imgs/template/icons/location.svg) no-repeat 0px 5px;
+                right: -10px;
+                top: -3px;
+            }
+        }
+    }
+}
+
+.card-block-info {
+    .card-location {
+        background: unset;
+        margin-right: 30px !important;
+        &:before {
+            content: "";
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            background: url(../imgs/template/icons/location.svg) no-repeat 0px 5px;
+            right: 10px;
+        }
+    }
+    .employers-info {
+        .text-truncate {
+            margin-right: 5px;
+        }
+    }
+    .card-time {
+        position: relative;
+        background: unset;
+        padding-right: 15px;
+        &:before {
+            content: "";
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            background: url(../imgs/template/icons/time.svg) no-repeat 0px 5px;
+            right: -14px;
+        }
+    }
+    .card-briefcase {
+        position: relative;
+        background: unset;
+        padding-right: 18px;
+        &:before {
+            content: "";
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            background: url(../imgs/template/icons/briefcase.svg) no-repeat 0px 6px;
+            right: -11px;
+        }
+    }
+}
+
+.section-box {
+    .box-checkbox {
+        padding-right: 30px;
+        background: url(../imgs/page/homepage3/check-box.svg) no-repeat 521px 7px;
+    }
+}
+
+.list-checkbox {
+    .number-item {
+        right: unset !important;
+        left: 0px;
+    }
+    .cb-container {
+        position: unset;
+        .checkmark {
+            right: 0px;
+            left: unset;
+        }
+    }
+}
+
+.display-flex2 {
+    .box-border {
+        .dropdown-sort {
+            .dropdown-toggle {
+                margin-left: 10px;
+                i[class^="fi-rr-"]:before {
+                    position: absolute;
+                    left: 0px;
+                }
+            }
+        }
+    }
+}
+
+.card-grid-4-info {
+    .card-location {
+        padding-right: 20px;
+        background-position: right;
+    }
+}
+
+.breadcrumb-cover {
+    .container{
+        .breadcrumbs {
+            li a {
+                margin-right: 14px;
+                .icon-home::before {
+                    padding: unset;
+                    top: 5px;
+                    right: 6px;
+                    position: absolute;
+                }
+                &:last-child {
+                    padding-left: 0px !important;
+                }
+            }
+            li {
+                padding-left: 10px;
+                padding-right: 10px;
+                &:before {
+                    left: 50px;
+                    transform: scaleX(-1);
+                }
+            }
+        }
+    }
+}
+
+.mobile-header-wrapper-style {
+    right: unset;
+    left: 0;
+
+    .mobile-menu {
+        .has-children {
+            .menu-expand {
+                right: unset !important;
+                left: 0;
+            }
+        }
+    }
+}
+
+.ml-30 {
+    margin-right: 30px !important;
+}
+
+form.auth-form .auth-input-icon {
+    left: auto;
+    right: 1px;
+}
+
+.user-profile-section {
+    .slug-field-wrapper {
+        input.form-control {
+            padding: 12px !important;
+            font-size: 16px;
+        }
+    }
+}
+
+#addLanguageModal {
+    .modal-content {
+        .modal-header {
+            button.btn-close {
+                right: unset;
+                left: 15px;
+            }
+        }
+    }
+}
+
+.auth-form.login-register {
+    .cb-container {
+        padding-left: unset;
+        padding-right: 35px;
+
+        .checkmark {
+            left: unset;
+            right: 0;
+        }
+    }
+
+    .col-6.text-end {
+        text-align: end !important;
+    }
+}
+
+.header {
+    .main-menu {
+        li {
+            ul {
+                left: unset;
+                right: 0;
+            }
+        }
+    }
+}
+
+.company-listing {
+    .card-grid-2 {
+        .card-grid-2-image-left {
+            .right-info {
+                .location-small {
+                    margin-left: 15px;
+                    margin-right: unset;
+                    padding: 0 20px 0 0 !important;
+
+                    &::before {
+                        right: 96px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "id": "botble/job-board",
+    "name": "Job Board",
+    "namespace": "Botble\\JobBoard\\",
+    "provider": "Botble\\JobBoard\\Providers\\JobBoardServiceProvider",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "1.2.3",
+    "description": "Job Board plugin",
+    "required_plugins": [
+        "location"
+    ]
+}

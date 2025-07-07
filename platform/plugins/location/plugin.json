@@ -1,0 +1,11 @@
+{
+    "id": "botble/location",
+    "name": "Location",
+    "namespace": "Botble\\Location\\",
+    "provider": "Botble\\Location\\Providers\\LocationServiceProvider",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "1.1.6",
+    "description": "Manage location data: country, state, city.",
+    "minimum_core_version": "7.3.0"
+}

@@ -1,0 +1,10 @@
+{
+    "id": "botble/team",
+    "name": "Team",
+    "namespace": "Botble\\Team\\",
+    "provider": "Botble\\Team\\Providers\\TeamServiceProvider",
+    "author": "Archi Elite",
+    "url": "https://archielite.com",
+    "version": "1.0.3",
+    "description": "It's used to manage company team members."
+}

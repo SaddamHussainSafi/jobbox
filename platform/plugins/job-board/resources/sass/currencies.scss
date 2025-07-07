@@ -1,0 +1,76 @@
+.swatches-container {
+    .header {
+        display: flex;
+        flex-direction: row;
+        font-weight: 700;
+        background-color: var(--bb-body-bg);
+        color: var(--bb-body-color);
+        border-bottom: var(--bb-border-width) var(--bb-border-style) var(--bb-border-color);
+
+        > * {
+            float: left;
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
+    .swatches-list {
+        float: left;
+        list-style: none;
+        margin: 0 0 15px;
+        padding: 0;
+        width: 100%;
+
+        li {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: relative;
+
+            + li {
+                margin-top: 1px;
+            }
+
+            &:nth-child(odd) {
+                background-color: var(--bb-body-bg);
+            }
+
+            > * {
+                float: left;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .image-box-container {
+                width: 34px;
+                margin: 0 auto;
+                font-size: 0;
+
+                img {
+                    border: 1px solid #cccccc;
+                    width: 34px;
+                    height: 34px;
+                }
+            }
+        }
+    }
+
+    .swatch-item {
+        flex: 1;
+        max-width: 90px;
+    }
+
+    .swatch-is-default {
+        width: 120px;
+    }
+
+    .remove-item {
+        width: 80px;
+    }
+
+    .swatch-exchange-rate,
+    .swatch-is-prefix-symbol,
+    .swatch-decimals {
+        max-width: 180px;
+    }
+}

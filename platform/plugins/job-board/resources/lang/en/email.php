@@ -1,0 +1,121 @@
+<?php
+
+return [
+    'templates' => [
+        'admin-new-job-application' => [
+            'title' => 'New job application (to admin users)',
+            'description' => 'Email template to send notice to administrators when system get new job application',
+            'subject' => 'New job application',
+        ],
+        'employer-new-job-application' => [
+            'title' => 'New job application (to employer and colleagues)',
+            'description' => 'Email template to send notice to employer and colleagues when system get new job application',
+            'subject' => 'New job application',
+        ],
+        'new-job-posted' => [
+            'title' => 'New job posted',
+            'description' => 'Send email to admin when a new job posted',
+            'subject' => 'New job is posted on {{ site_title }} by {{ job_author }}',
+        ],
+        'new-company-profile-created' => [
+            'title' => 'New company profile created',
+            'description' => 'Send email to admin when a employer create a new company profile',
+            'subject' => 'New company profile is created on {{ site_title }} by {{ employer_name }}',
+        ],
+        'job-expired-soon' => [
+            'title' => 'Job expired soon',
+            'description' => 'Send email to the author if their job will be expired in next 3 days',
+            'subject' => 'Your job "{{ job_name }}" will be expired in {{ job_expired_after }} days',
+        ],
+        'job-renewed' => [
+            'title' => 'Job renewed',
+            'description' => 'Send email to the author when their job renewed',
+            'subject' => 'Your job "{{ job_name }}" has been renewed automatically',
+        ],
+        'payment-receipt' => [
+            'title' => 'Payment receipt',
+            'description' => 'Send a notification to user when they buy credits',
+            'subject' => 'Payment receipt for package {{ package_name }} on {{ site_title }}',
+        ],
+        'account-registered' => [
+            'title' => 'Account registered',
+            'description' => 'Send a notification to admin when a new employer/job seeker registered',
+            'subject' => 'New {{ account_type }} registered on {{ site_title }}',
+        ],
+        'confirm-email' => [
+            'title' => 'Confirm email',
+            'description' => 'Send email to user when they register an account to verify their email',
+            'subject' => 'Confirm Email Notification',
+        ],
+        'password-reminder' => [
+            'title' => 'Reset password',
+            'description' => 'Send email to user when requesting reset password',
+            'subject' => 'Reset Password',
+        ],
+        'free-credit-claimed' => [
+            'title' => 'Free credit claimed',
+            'description' => 'Send a notification to admin when free credit is claimed',
+            'subject' => '{{ account_name }} has claimed free credit on {{ site_title }}',
+        ],
+        'payment-received' => [
+            'title' => 'Payment received',
+            'description' => 'Send a notification to admin when someone buy credits',
+            'subject' => 'Payment received from {{ account_name }} on {{ site_title }}',
+        ],
+        'invoice-payment-created' => [
+            'title' => 'Invoice Payment Detail',
+            'description' => 'Send a notification to the customer who makes the job posting payment',
+            'subject' => 'Payment received from {{ account_name }} on {{ site_title }}',
+        ],
+        'job-seeker-job-alert' => [
+            'title' => 'New job posted',
+            'description' => 'Send email to job seeker when a new job posted',
+            'subject' => 'Hiring {{ job_name }} at {{ company_name }}',
+        ],
+        'job-approved' => [
+            'title' => 'Job approved',
+            'description' => 'Send email to the author when their job is approved',
+            'subject' => 'Your job "{{ job_name }}" has been approved',
+        ],
+        'company-approved' => [
+            'title' => 'Company approved',
+            'description' => 'Send email to the author when their company is approved',
+            'subject' => 'Your company "{{ company_name }}" has been approved',
+        ],
+        'job-seeker-applied-job' => [
+            'title' => 'Job application confirmation',
+            'description' => 'Send email to job seeker when they applied for a job',
+            'subject' => 'Application Confirmation for {{ job_name }}',
+        ],
+    ],
+    'variables' => [
+        'name' => 'Name',
+        'position' => 'Position',
+        'email' => 'Email',
+        'phone' => 'Phone',
+        'summary' => 'Summary',
+        'resume' => 'Resume',
+        'cover_letter' => 'Cover Letter',
+        'job_application' => 'Job application',
+        'job_name' => 'Job name',
+        'job_url' => 'Job URL',
+        'job_author' => 'Job author',
+        'company_name' => 'Company name',
+        'company_url' => 'Company URL',
+        'employer_name' => 'Employer name',
+        'job_list' => 'Job list URL',
+        'job_expired_after' => 'Job expired after x days',
+        'account_name' => 'Account name',
+        'account_email' => 'Account email',
+        'package_name' => 'Name of package',
+        'package_price' => 'Price',
+        'package_percent_discount' => 'Percent discount',
+        'package_number_of_listings' => 'Number of listings',
+        'package_price_per_credit' => 'Price per credit',
+        'account_type' => 'Account type (employer/job seeker)',
+        'verify_link' => 'Verify link',
+        'reset_link' => 'Reset link',
+        'invoice_code' => 'Invoice Code',
+        'invoice_link' => 'Invoice Link',
+    ],
+];
