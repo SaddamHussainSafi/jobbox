@@ -1,6 +1,6 @@
 # 🎯 Smart Job Tracker – AI-Powered Career Management Web App
 
-> Developed by Rajni, Saddam, and Simranjeet  
+> Developed by Saddam, Rajni, and Simranjeet  
 > As part of the Computer Programming program (Student Project)
 
 ---
