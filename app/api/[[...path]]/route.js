@@ -6,6 +6,8 @@ import { v4 as uuidv4 } from 'uuid';
 import { openai } from '@ai-sdk/openai';
 import { streamText } from 'ai';
 
+const OPENAI_ENABLED = !!process.env.OPENAI_API_KEY;
+
 // Helper function to get user from session
 async function getCurrentUser(request) {
   const session = await getSession();
@@ -191,9 +193,17 @@ Write a compelling cover letter that:
 Keep it under 400 words with a professional, engaging tone.`;
       }
       
+      if (!OPENAI_ENABLED) {
+        return NextResponse.json(
+          { error: 'OpenAI API is disabled' },
+          { status: 503 }
+        );
+      }
+
       const result = await streamText({
         model: openai('gpt-4'),
-        system: 'You are an expert career coach and resume writer. Create professional, tailored documents that highlight relevant skills and experiences.',
+        system:
+          'You are an expert career coach and resume writer. Create professional, tailored documents that highlight relevant skills and experiences.',
         messages: [{ role: 'user', content: prompt }]
       });
       
